@@ -1,7 +1,7 @@
 from flask import Flask
 
 import os
-import s3
+#import s3
 import producer
 
 app = Flask(__name__)
