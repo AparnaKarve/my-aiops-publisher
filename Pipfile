@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+app = "*"
+flask = "*"
+kafka-python = "*"
+"s3fs" = "*"
+
+[dev-packages]
+pylama = "*"
+pylama-pylint = "*"
+
+[requires]
+python_version = "3.6"
