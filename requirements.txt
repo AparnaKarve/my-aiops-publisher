@@ -4,4 +4,5 @@ Click==7.0
 Flask==1.0.2
 ItsDangerous==1.0.0
 Jinja2==2.10
+kafka-python==1.4.3
 pipenv==2018.10.13
