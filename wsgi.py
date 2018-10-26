@@ -17,6 +17,12 @@ def wake_up():
     print(server)
     print("topic: \n")
     print(topic)
+    
+    print("Test var: \n")
+    print( os.environ.get('MYVAR'))
+    
+    server = 'platform-mq-dev-kafka-brokers.platform-mq-dev.svc:9092'
+    topic = 'available'
 
     # aws_key = os.environ.get('AWS_ACCESS_KEY_ID')
     # aws_secret = os.environ.get('AWS_SECRET_ACCESS_KEY')
