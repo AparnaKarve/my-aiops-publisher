@@ -4,10 +4,10 @@ import os
 #import s3
 import producer
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route('/')
+@application.route("/")
 def wake_up():
     server = os.environ.get('KAFKA_SERVER')
     topic = os.environ.get('KAFKA_TOPIC')
@@ -28,4 +28,4 @@ def wake_up():
 
 
 if __name__ == '__main__':
-    app.run()
+    application.run()
