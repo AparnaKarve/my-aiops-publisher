@@ -12,6 +12,11 @@ def wake_up():
     server = os.environ.get('KAFKA_SERVER')
     topic = os.environ.get('KAFKA_TOPIC')
     # available_message = os.environ.get('KAFKA_AVAILABLE_MESSAGE') -- ?
+    
+    print("server: \n")
+    print(server)
+    print("topic: \n")
+    print(topic)
 
     # aws_key = os.environ.get('AWS_ACCESS_KEY_ID')
     # aws_secret = os.environ.get('AWS_SECRET_ACCESS_KEY')
